@@ -2,10 +2,10 @@ import React from 'react';
 import { Phone, Clock, MapPin, CreditCard, Wallet, QrCode, MessageCircle } from 'lucide-react';
 
 function App() {
-  const whatsappNumber = "556291983835";
+  const whatsappNumber = "5562992176104";
   const whatsappLink = `https://wa.me/${whatsappNumber}`;
-  const address = "Rua Boa Ventura Do Puxim, Q 0, L 10 - Jardim Gonçalves";
-  const mapsLink = `https://www.google.com/maps/search/${encodeURIComponent(address)}`;
+  const address = "Anapolis Goias, Q 0, L 10 - Jardim Gonçalves";
+  const mapsLink = `https://maps.app.goo.gl/qhJ2Qhk31N7icJd27${encodeURIComponent(address)}`;
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-orange-50 to-white">
@@ -16,7 +16,7 @@ function App() {
         <div className="absolute inset-0 bg-black/50" />
         <div className="absolute inset-0 flex items-center justify-center text-center">
           <div>
-            <h1 className="text-5xl font-bold text-white mb-4">Scoob Lanches</h1>
+            <h1 className="text-5xl font-bold text-white mb-4">Lanchonete</h1>
             <p className="text-xl text-orange-200 mb-8">Sabor que dá vontade de voltar!</p>
             <div className="relative max-w-sm mx-auto">
               <div className="absolute -left-4 top-1/2 -translate-y-1/2 w-3 h-3 bg-green-500 rotate-45" />

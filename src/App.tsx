@@ -4,7 +4,7 @@ import { Phone, Clock, MapPin, CreditCard, Wallet, QrCode, MessageCircle } from 
 function App() {
   const whatsappNumber = "5562992176104";
   const whatsappLink = `https://wa.me/${whatsappNumber}`;
-  const address = "Anapolis Goias, Q 0, L 10 - Jardim Gonçalves";
+  const address = "Anapolis Goias,";
   const mapsLink = `https://maps.app.goo.gl/qhJ2Qhk31N7icJd27${encodeURIComponent(address)}`;
 
   return (
@@ -72,7 +72,7 @@ function App() {
                 </div>
               </div>
               <h3 className="font-semibold text-lg mb-2">Contato</h3>
-              <p className="text-gray-600 mb-2">(55) 62 9198-3835</p>
+              <p className="text-gray-600 mb-2">(55) 62 99217-6104</p>
               <p className="text-green-600 text-sm font-medium flex items-center gap-1">
                 Chamar no WhatsApp
                 <span className="transform transition-transform group-hover:translate-x-1">→</span>
